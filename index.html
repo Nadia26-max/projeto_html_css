@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Faz com que os celulares consigam ver melhor esta página-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projeto HTML e CSS</title>
+</head>
+<body>
+    <!--Início do navbar-->
+    <header id="navbar">
+        <img src="img/shuriken.png" alt="Minhas Estrelas">
+        <h2>Blog Ninja</h2>
+            <nav></nav>
+                <!--Criação de listas-->
+                <ul id="navbar-list"><!--id so poderá ser usado uma vez em cada página-->
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projeto</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+    </header>
+    <!--Final do navbar-->
+    <main>
+        <!--Início do banner-->
+        <div id="main-banner">
+            <h1>Este é um Projeto de HTML com CSS</h1>
+            <img src="img/ninja.png" alt="Perfil Ninja">
+            <p>Ninja da Programação</p>
+        </div>
+        <!--Final do banner-->
+        <!--Início do Sobre-->
+            <section id="about-section">
+                <h2>O jeito Ninja de Ser</h2>
+                <p>Lorem ipsum dolor sit amet. Aut perferendis distinctio aut iste natus sit perferendis velit vel molestiae atque. Vel ipsa asperiores 33 delectus omnis cum autem!</p>
+            </section>
+        <!--Final do Sobre-->
+    </main>
+        <!--Início das Habilidades-->
+        <section id="skills-section">
+            <div class="container">
+                <div class="skills-container">
+                    <img src="img/weapon1.png" alt="Arma">
+                    <h3>Desenvolvimento 1</h3> 
+                    <p>Desenvolver Projetos Web</p>
+                    <p class="subtitle">Linguagens Utilizadas:</p>
+                    <p>HTML,CSS</p>
+                    <p class="subtitle">Sistemas a Desenvolver:</p>
+                    <p>Comércio Eletrônico, Sites Institucionais, Sistemas de Qualquer Complexidade</p>
+                </div>
+                <div class="skills-container central">
+                    <img src="img/weapon2.png" alt="Arma">
+                    <h3>Desenvolvimento 2</h3> 
+                    <p>Desenvolver Projetos Web</p>
+                    <p class="subtitle">Linguagens Utilizadas:</p>
+                    <p>HTML,CSS</p>
+                    <p class="subtitle">Sistemas a Desenvolver:</p>
+                    <p>Comércio Eletrônico, Sites Institucionais, Sistemas de Qualquer Complexidade</p>
+                </div>
+                <div class="skills-container">
+                    <img src="img/weapon3.png" alt="Arma">
+                    <h3>Desenvolvimento 3</h3> 
+                    <p>Desenvolver Projetos Web</p>
+                    <p class="subtitle">Linguagens Utilizadas:</p>
+                    <p>HTML,CSS</p>
+                    <p class="subtitle">Sistemas a Desenvolver:</p>
+                    <p>Comércio Eletrônico, Sites Institucionais, Sistemas de Qualquer Complexidade</p>
+                </div>
+            </div>
+        </section>
+        <!--Final das Habilidades-->
+        <!--Início Empregos-->
+        <section id="jobs-section">
+            <h2>Últimos Trabalhos</h2>
+            <p>Trabalhos mais recentes: <a href="#">clique aqui</a></p>
+                <div class="job-container">
+                    <div class="job-box proj1"></div><!--Imagens-->
+                    <div class="job-box proj2"></div><!--Imagens-->
+                    <div class="job-box proj3"></div><!--Imagens-->
+                </div>
+                <div class="job-container">
+                    <div class="job-box proj2"></div><!--Imagens-->
+                    <div class="job-box proj3"></div><!--Imagens-->
+                    <div class="job-box proj1"></div><!--Imagens-->
+                </div>
+        </section>
+        <!--Final Empregos-->
+        <!--Início do Rodapé-->
+        <footer>
+            <h2>Me mande uma mensagem!</h2>
+            <p class="inform1">Me contate para algum projeto ninja ;)</p>
+            <img src="img/ninja.png" alt="Perfil Ninja">
+            <form action="" method="">
+                <input type="text" name="name" placeholder="Insira o seu nome">
+                <input type="email" name="email" placeholder="Insira o seu email">
+                <textarea name="msg" placeholder="Digite uma mensagem"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+            <p class="inform2">Desenvolvido por <span class="detail"> Nadia Araujo</span></p>
+        </footer>
+        <!--Final do Rodapé-->
+</body>
+</html>
